@@ -1,0 +1,22 @@
+ol {
+  list-style: none;
+}
+
+.contact-details {
+  display: none;
+}
+
+#contactName {
+  cursor: pointer;
+}
+
+#contactName:hover {
+  color: yellow;
+}
+ #contactName{
+   display: none;
+ }
+
+ 
+
+ 

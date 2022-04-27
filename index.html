@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Adress Book</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center text-success pt-3">Address Book</h1>
+    <form id="adressBook">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="name">
+        </div>
+        <label for="Name">Address</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="address">
+        </div>
+        <label for="Name">PhoneNumber</label>
+        <div class="col-sm-6">
+          <input type="number" class="form-control" id="phoneNumber">
+        </div>
+        <label for="Name">Email Address</label>
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email">
+        </div>
+        <button class="btn btn-success " type="submit">Save</button>
+      </div>
+    </form><br>
+   <div style="border: solid green; background-color: crimson; color: whitesmoke;" class="col-sm-4">
+      <h2 id="contactName"></h2>
+      <ol class="contact-details">
+        <li class="address"></li>
+        <li class="phoneNumber"></li>
+        <li class="emailAddress"></li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
