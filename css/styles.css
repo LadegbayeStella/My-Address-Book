@@ -16,7 +16,16 @@ ol {
  #contactName{
    display: none;
  }
+.body{
 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.form-group label{
+  font-size: 30px;
+  font-weight: bold;
+}
  
 
  
